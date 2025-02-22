@@ -1,0 +1,10 @@
+.section-start {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-row {
+    row-gap: 4vh;
+}
