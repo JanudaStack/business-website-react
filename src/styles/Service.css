@@ -8,3 +8,14 @@
 .card-row {
     row-gap: 4vh;
 }
+
+.card {
+}
+
+.card:hover {
+    background: linear-gradient(to right, #f61b10, #ef0963);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translateY(-10px);
+}

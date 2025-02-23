@@ -141,7 +141,7 @@ function Service() {
                         </div>
                     </div>
                 </div>
-                <div className="container mt-5">
+                <div className="container mt-4">
                     <div className="row card-row">
                         <div className="col-lg-4 col-md-12">
                             <div className="card">

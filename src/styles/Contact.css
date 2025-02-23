@@ -1,0 +1,12 @@
+.form-container {
+    margin-top: 50px;
+}
+
+.img-container {
+    margin-top: 50px;
+}
+
+.img-container img {
+    border-radius: 5px;
+    width: 100%;
+}
