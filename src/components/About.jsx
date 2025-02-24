@@ -32,7 +32,7 @@ function About() {
                             <div className="row">
                                 <div className="col-lg-6 col-md-6 col-sm-12">
                                     <div className="para-two">
-                                        <h3>Who We Are</h3>
+                                        <h2>Who We Are</h2>
                                         <p>
                                             Lorem, ipsum dolor sit amet
                                             consectetur adipisicing elit.
@@ -47,7 +47,7 @@ function About() {
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-12">
                                     <div className="para-two">
-                                        <h3>What We Looking For?</h3>
+                                        <h2>What We Looking For?</h2>
                                         <p>
                                             Lorem ipsum dolor sit amet
                                             consectetur adipisicing elit.

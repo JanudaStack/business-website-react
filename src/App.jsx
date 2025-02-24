@@ -8,7 +8,7 @@ import Member from './components/Member';
 import News from './components/News';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-
+// import './App.css';
 function App() {
     return (
         <>
@@ -21,7 +21,7 @@ function App() {
             <Member />
             <News />
             <Contact />
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 }

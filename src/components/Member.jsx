@@ -4,10 +4,8 @@ function Member() {
     return (
         <>
             <div className="container">
-                <div className="heading-container ">
-                    <div className=" heading">
-                        <h2>Skilled Team</h2>
-                    </div>
+                <div className=" heading">
+                    <h2>Skilled Team</h2>
                 </div>
             </div>
             <div className="card-container container">

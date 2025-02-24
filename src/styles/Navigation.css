@@ -1,3 +1,7 @@
-.nav-bar a {
-    justify-content: center;
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar .nav-link {
+    padding-left: 0; /* Remove padding if not needed */
 }

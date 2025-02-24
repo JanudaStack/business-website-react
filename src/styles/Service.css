@@ -9,7 +9,13 @@
     row-gap: 4vh;
 }
 
+.card-inner-div {
+    padding: 25px;
+}
 .card {
+    border: none;
+    /* width: clamp (400px, 690px, 650px); */
+    transition: all 0.5s;
 }
 
 .card:hover {
@@ -18,4 +24,12 @@
     border-radius: 10px;
     cursor: pointer;
     transform: translateY(-10px);
+}
+
+.icon svg {
+    transition: stroke 0.3s ease; /* Smooth transition for color change */
+}
+
+.icon:hover svg {
+    stroke: #ffffff; /* Change this to your desired hover color */
 }
