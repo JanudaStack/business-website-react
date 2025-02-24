@@ -52,7 +52,12 @@ function GridComplexExample() {
                 <Form.Check type="checkbox" label="Check me out" />
             </Form.Group>
 
-            <Button variant="primary" type="submit" className="mt-5">
+            <Button
+                variant="primary"
+                type="submit"
+                className="mt-4"
+                style={{ width: '100%', marginBottom: '20px' }}
+            >
                 Submit
             </Button>
         </Form>

@@ -10,17 +10,8 @@ function Contact() {
                             <h2>Contact Us</h2>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-lg-7">
-                            <div className="form-container">
-                                <GridComplexExample />
-                            </div>
-                        </div>
-                        <div className="col-lg-5">
-                            <div className="img-container">
-                                <img src="/about/about-6.jpg" alt="" />
-                            </div>
-                        </div>
+                    <div className="form-container">
+                        <GridComplexExample />
                     </div>
                 </div>
             </div>
