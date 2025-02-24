@@ -26,7 +26,7 @@ function Portfolio() {
                     </div>
                 </div>
                 <div className="card-port">
-                    <img src="/portfolio/portfolio-1.jpg" alt="" />
+                    <img src="/portfolio/portfolio-2.jpg" alt="" />
                     <div className="card-content">
                         <h3>Card 2</h3>
                         <p>
@@ -42,7 +42,7 @@ function Portfolio() {
                     </div>
                 </div>
                 <div className="card-port">
-                    <img src="/portfolio/portfolio-1.jpg" alt="" />
+                    <img src="/portfolio/portfolio-3.jpg" alt="" />
                     <div className="card-content">
                         <h3>Card 3</h3>
                         <p>

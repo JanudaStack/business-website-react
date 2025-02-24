@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Montserrat', serif;
 }
 
 .heading h2 {
@@ -21,7 +23,7 @@
     background-color: #f0f0f0;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
     margin: 20px;
 }
 
@@ -30,6 +32,9 @@
     height: auto;
 }
 
+.card-port:hover {
+    transform: scaleY(1);
+}
 .card-content {
     padding: 16px;
 }
@@ -53,4 +58,13 @@
     border-radius: 4px;
     margin-top: 16px;
     color: #fff;
+}
+
+.card-port {
+    animation: fadeInUp 0.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-port:hover {
+    transform: translateY(-10px);
 }
