@@ -6,7 +6,7 @@ function Contact() {
             <div className="container">
                 <div className="container">
                     <div className="heading-container ">
-                        <div className=" heading">
+                        <div className="heading" id="contact-us">
                             <h2>Contact Us</h2>
                         </div>
                     </div>

@@ -3,7 +3,7 @@ function News() {
         <>
             <div className="container">
                 <div className="heading-container ">
-                    <div className=" heading">
+                    <div className="heading">
                         <h2>Latest News</h2>
                     </div>
                 </div>
