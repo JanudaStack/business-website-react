@@ -12,13 +12,23 @@ function Navigation() {
                     <Navbar.Brand href="#home">Zontoro</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto nav-bar">
-                            <Nav.Link href="#home">Work</Nav.Link>
-                            <Nav.Link href="#about">About</Nav.Link>
-                            <Nav.Link href="#blog">Blog</Nav.Link>
-                            <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav className="mx-auto nav-bar">
+                            <Nav.Link href="#home" className="mx-3">
+                                Work
+                            </Nav.Link>
+                            <Nav.Link href="#about" className="mx-3">
+                                About
+                            </Nav.Link>
+                            <Nav.Link href="#blog" className="mx-3">
+                                Blog
+                            </Nav.Link>
+                            <Nav.Link href="#contact" className="mx-3">
+                                Contact
+                            </Nav.Link>
                         </Nav>
-                        <Button variant="outline-primary">Buy Now</Button>
+                        <Button variant="outline-primary" className="mx-3">
+                            Buy Now
+                        </Button>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

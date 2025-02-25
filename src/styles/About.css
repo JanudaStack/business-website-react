@@ -6,10 +6,21 @@
     margin-top: 8vh;
 }
 
+.thumbnail img {
+    border-radius: 5px;
+}
+
 .about-container h2 {
-    font-size: 2.5rem;
+    margin-bottom: 15px;
+    font-size: 2.3rem;
 }
 
 .about-container p {
+    text-align: justify;
+    word-spacing: 2px;
     font-size: 1.1rem;
+}
+
+.inner-text {
+    padding-top: 50px;
 }

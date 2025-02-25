@@ -7,7 +7,11 @@ function About() {
                 <div className="row">
                     <div className="col-lg-5 col-md-4 col-sm-12">
                         <div className="thumbnail">
-                            {/* <img src="/about/about-3.jpg" alt="" /> */}
+                            <img
+                                src="/about/about-3.jpg"
+                                alt=""
+                                className="img-fluid"
+                            />
                         </div>
                     </div>
                     <div className="col-lg-7 col-md-8 col-sm-12">

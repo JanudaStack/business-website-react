@@ -1,4 +1,10 @@
 .carousel-inner img {
-    height: auto;
+    object-fit: cover;
     width: 100%;
+    filter: brightness(0.6);
+    transition: filter 0.3s ease;
+}
+
+.carousel-inner:hover img {
+    filter: brightness(1);
 }

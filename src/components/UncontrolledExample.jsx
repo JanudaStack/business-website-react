@@ -1,9 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-
 import ExampleCarouselImageOne from '../assets/backgrounds/pexels-jopwell-2422282.jpg';
 import ExampleCarouselImageTwo from '../assets/backgrounds/software-developer-on-php-code.jpg';
 import ExampleCarouselImageThree from '../assets/backgrounds/working-at-night.jpg';
-
 import '../styles/UncontrolledExample.css';
 function UncontrolledExample() {
     return (
